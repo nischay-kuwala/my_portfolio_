@@ -6,10 +6,10 @@ import { TypeAnimation } from "react-type-animation";
 function Topbar() {
   return (
     <>
-      <div className="h-20 overflow-hidden" id="topbar"></div>
+      <div className="h-24 overflow-hidden" id="topbar"></div>
       <TypeAnimation
         aria-hidden="true"
-        className="flex justify-center overflow-hidden font-mono font-extrabold text-purple-800 lg:m-16 sm:text-xl sm:mx-2 sm:my-16"
+        className="flex justify-center h-full my-10 font-mono text-2xl font-extrabold text-purple-800 md:text-4xl lg:text-6xl lg:my-16"
         sequence={[
           "Devloper",
           300,
@@ -24,7 +24,7 @@ function Topbar() {
           "",
           300,
         ]}
-        style={{ fontSize: "3em" }}
+        //style={{ fontSize: "3em" }}
         repeat={Infinity}
         speed={{ type: "keyStrokeDelayInMs", value: 250 }}
         deletionSpeed={90}
