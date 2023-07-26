@@ -24,7 +24,12 @@ function Navbar() {
               </Link>
             </button>
             <button className="mx-2 font-bold text-white hover:underline">
-              <Link smooth to="#project">
+              <Link
+                to="#project"
+                scroll={(el) =>
+                  el.scrollIntoView({ behavior: "smooth", block: "end" })
+                }
+              >
                 PROJECTS
               </Link>
             </button>

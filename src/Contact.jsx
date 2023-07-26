@@ -5,8 +5,8 @@ import { BsFire } from "react-icons/bs";
 function Contact() {
   return (
     <>
-      <div className="h-full bg-indigo-900 sm:flex sm:items-center sm:justify-center lg:flex-row rounded-3xl sm:py-4 ">
-        <div className="mx-12 font-serif text-3xl font-extrabold text-white ">
+      <div className="items-center justify-center h-full p-4 bg-indigo-900 sm:flex lg:flex-row rounded-3xl sm:py-4 ">
+        <div className="mx-12 font-serif text-3xl font-extrabold text-center text-white ">
           Start a Project
         </div>
         <div className="items-center text-lg text-center text-white">
@@ -16,10 +16,12 @@ function Contact() {
           </div>
           <div className="flex justify-center"> I'll buy the coffee.</div>
         </div>
-        <button className="box-border flex justify-center p-2 mx-12 text-2xl border border-cyan-500 rounded-xl hover:bg-blue-400 hover:underline">
-          <BsFire className="m-2 hover:text-yellow-500" />
-          Let's do this
-        </button>
+        <div className="flex justify-center w-full md:w-fit">
+          <button className="flex p-2 mx-12 my-3 text-2xl border border-cyan-500 rounded-xl hover:bg-blue-400 hover:underline">
+            <BsFire className="m-2 hover:text-yellow-500 " />
+            Let's do this
+          </button>
+        </div>
       </div>
       <div className="flex flex-col items-center justify-center h-full pt-8 bg-blue-500">
         <div className=" cursor-pointer font-[Cursive] text-3xl transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 duration-300">
