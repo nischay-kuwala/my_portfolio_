@@ -24,7 +24,7 @@ function Topbar() {
           "",
           300,
         ]}
-        style={{ fontSize: "2em" }}
+        style={{ fontSize: "3em" }}
         repeat={Infinity}
         speed={{ type: "keyStrokeDelayInMs", value: 250 }}
         deletionSpeed={90}

@@ -8,7 +8,7 @@ function Navbar() {
   const [navbar, setnavbar] = useState(false);
   return (
     <>
-      <div className="fixed z-0 w-full pb-4 transition duration-500 ease-in bg-purple-800 rounded-b-full backdrop-brightness-100">
+      <div className="fixed z-0 w-full pb-4 transition duration-500 ease-in bg-purple-800 rounded-b-full">
         <div className="top-0 flex items-center justify-between h-20 pt-0 outer">
           <div className=" mx-4 cursor-pointer font-[Cursive] text-3xl transition ease-in-out delay-15 hover:-translate-y-1 hover:scale-110 duration-300">
             <span className=" font-[Fantasy] font-extrabold italic mb-3 mx-3 text-5xl">
