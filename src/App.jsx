@@ -5,6 +5,7 @@ import Contact from "./Contact";
 import Navbar from "./Navbar";
 import Tools from "./Tools";
 import Project from "./Project";
+import Collabration from "./Collabration";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Tools />
       <Project />
+      <Collabration />
       <Contact />
     </>
   );

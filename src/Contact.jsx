@@ -5,11 +5,11 @@ import { BsFire } from "react-icons/bs";
 function Contact() {
   return (
     <>
-      <div className="items-center justify-center h-full p-4 bg-indigo-900 sm:flex lg:flex-row rounded-3xl sm:py-4 ">
-        <div className="mx-12 font-serif text-3xl font-extrabold text-center text-white ">
+      <div className="flex flex-col items-center h-full p-4 bg-indigo-900 justify-evenly sm:flex lg:flex-row rounded-3xl sm:py-4 ">
+        <div className="mb-6 font-serif text-3xl font-extrabold text-center text-white ">
           Start a Project
         </div>
-        <div className="items-center text-lg text-center text-white">
+        <div className="items-center mb-6 text-lg text-center text-white">
           <div>
             {" "}
             Interested in working together? We should queue up a time to chat.
