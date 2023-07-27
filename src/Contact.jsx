@@ -17,10 +17,14 @@ function Contact() {
           <div className="flex justify-center"> I'll buy the coffee.</div>
         </div>
         <div className="flex justify-center w-full md:w-fit">
-          <button className="flex p-2 mx-12 my-3 text-2xl border border-cyan-500 rounded-xl hover:bg-blue-400 hover:underline">
+          <a
+            className="flex p-2 mx-10 my-3 text-2xl border border-cyan-500 rounded-xl hover:bg-blue-400 hover:underline"
+            href="mailto:nischaykuwala@gmail.com"
+            target="_blank"
+          >
             <BsFire className="m-2 hover:text-yellow-500 " />
             Let's do this
-          </button>
+          </a>
         </div>
       </div>
       <div className="flex flex-col items-center justify-center h-full pt-8 bg-blue-500">

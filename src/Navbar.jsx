@@ -6,6 +6,7 @@ import { useState } from "react";
 function Navbar() {
   const [open, setopen] = useState(false);
   const [navbar, setnavbar] = useState(false);
+
   return (
     <>
       <div className="fixed z-0 w-full pb-4 transition duration-500 ease-in bg-purple-800 rounded-b-full">
@@ -43,9 +44,13 @@ function Navbar() {
                 ABOUT
               </Link>
             </button>
-            <button className="h-8 px-2 mx-4 text-xl font-bold text-white border rounded-full border-cyan-500 hover:bg-yellow-300">
-              <Link to="">RESUME</Link>
-            </button>
+            <a
+              href="./Nischay.pdf"
+              download
+              className="h-8 px-2 mx-4 text-xl font-bold text-white border rounded-full border-cyan-500 hover:bg-yellow-300"
+            >
+              RESUME
+            </a>
           </div>
           <div
             onClick={() => {
@@ -84,9 +89,13 @@ function Navbar() {
               ABOUT
             </Link>
           </button>
-          <button className="flex justify-center h-8 px-2 mx-4 text-xl font-bold border rounded-full w-fit border-cyan-500 hover:bg-yellow-300">
-            <Link to="">RESUME</Link>
-          </button>
+          <a
+            href="./Nischay.pdf"
+            download
+            className="flex justify-center h-8 px-2 mx-4 text-xl font-bold border rounded-full w-fit border-cyan-500 hover:bg-yellow-300"
+          >
+            RESUME
+          </a>
         </div>
       </div>
     </>
